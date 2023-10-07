@@ -1,66 +1,65 @@
 # CSS
-CSS Tutorial
-CSS HOME
+
 CSS Introduction
 CSS Syntax
 CSS Selectors
 CSS How To
 CSS Comments
 CSS Colors
-Colors
-RGB
-HEX
-HSL
+		Colors
+		RGB
+		HEX
+		HSL
 CSS Backgrounds
-Background Color
-Background Image
-Background Repeat
-Background Attachment
-Background Shorthand
+		Background Color
+		Background Image
+		Background Repeat
+		Background Attachment
+		Background Shorthand
 CSS Borders
-Borders
-Border Width
-Border Color
-Border Sides
-Border Shorthand
-Rounded Borders
+		Borders
+		Border Width
+		Border Color
+		Border Sides
+		Border Shorthand
+		Rounded Borders
 CSS Margins
-Margins
-Margin Collapse
+		Margins
+		Margin Collapse
 CSS Padding
 CSS Height/Width
 CSS Box Model
 CSS Outline
-Outline
-Outline Width
-Outline Color
-Outline Shorthand
-Outline Offset
+		Outline
+		Outline Width
+		Outline Color
+		Outline Shorthand
+		Outline Offset
 CSS Text
-Text Color
-Text Alignment
-Text Decoration
-Text Transformation
-Text Spacing
-Text Shadow
+		Text Color
+		Text Alignment
+		Text Decoration
+		Text Transformation
+		Text Spacing
+		Text Shadow
 CSS Fonts
-Font Family
-Font Web Safe
-Font Fallbacks
-Font Style
-Font Size
-Font Google
-Font Pairings
-Font Shorthand
+		Font Family
+		Font Web Safe
+		Font Fallbacks
+		Font Style
+		Font Size
+		Font Google
+		Font Pairings
+		Font Shorthand
 CSS Icons
 CSS Links
 CSS Lists
 CSS Tables
-Table Borders
-Table Size
-Table Alignment
-Table Style
-Table Responsive
+		Table Borders
+		Table Size
+		Table Alignment
+		Table Style
+		Table Responsive
 CSS Display
 CSS Max-width
 CSS Position

@@ -1,0 +1,461 @@
+/* (A) BIG SCREEN */
+/* (A1) 2 COLUMN LAYOUT */
+#container { display: flex;
+position: relative;
+}
+#sidebar, #MainContents { padding: 20px; }
+#sidebar {
+  width: 20%;
+  /* background: #eaeaea; */
+  transition: opacity 0.2s;
+  position: fixed;
+}
+#MainContents {
+  width: 75%;
+  background: #ffffff;
+	position: relative;
+	left: 22.4%;
+}
+
+
+body {
+	margin: 0;
+	font-size: 20px;
+	font-family: arial;
+}
+
+
+/* (A2) HIDE TOGGLE BUTTONS */
+.toggleButton {
+  display: none;
+  font-size: 24px;
+}
+
+	ul {
+		list-style: none;
+		margin: 2em 0 2em 0;
+		padding-left: 0.4em;
+	}
+
+
+	ul li {
+		padding-top: 1em;
+		font-size: 16px;
+		font-family: arial;
+	}
+
+	ul li a {
+		text-decoration: none;
+		color: #000000;
+	}
+
+	a:hover {
+			border-bottom-color: #f56a6a;
+			color: #f56a6a !important;
+	}
+
+
+hr {
+		border: 0;
+		border-bottom: solid 5px rgb(19 100 220 / 75%);
+		margin: 2em 0;
+	}
+
+img {
+	max-width: 100%;
+	//display: block;
+}
+
+/* MENU COLOR CODE */
+.CourseIndicatorArticles {
+	font-weight: 900;
+	color: #6c29dd;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorAndroid {
+	font-weight: 900;
+	color: #8e37a4;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorBC {
+	font-weight: 900;
+	color: #dabe26;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorC {
+	font-weight: 900;
+	color: #b3d844;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorDat {
+	font-weight: 900;
+	color: #a4BA3a;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorEVB {
+	font-weight: 900;
+	color: #2fbb43;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorGames {
+	font-weight: 900;
+	color: #ab0b29;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorJava {
+	font-weight: 900;
+	color: #d369da;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorJavaS {
+	font-weight: 900;
+	color: #db4b0c;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorAcc {
+	font-weight: 900;
+	color: #a4373a;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorW {
+	font-weight: 900;
+	color: #4184df;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorEx {
+	font-weight: 900;
+	color: #2fbb43;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorPH {
+	font-weight: 900;
+	color: #bb852f;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorInter {
+	font-weight: 900;
+	color: #488e50;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorPY {
+	font-weight: 900;
+	color: #b3ab2a;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorVB {
+	font-weight: 900;
+	color: #4fd5e1;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+.CourseIndicatorWeb {
+	font-weight: 900;
+	color: #26daba;
+	font-size: 1.2em;
+	font-family: sans-serif;
+}
+
+/* END MENU COLOR CODE */
+
+.AllCourses {
+	color: #FF0000;
+	text-decoration: hotpink underline;
+}
+.TopPageHeading{
+	font-size: 36px;
+	font-family: sans-serif;
+	color: #3897e0;
+	font-weight: bold;
+}
+.TopPageHeadingWebColor {
+	color: #26daba;
+}
+/* COURSE COLORS */
+.webColor {
+	color:#26daba;
+	text-align: center;
+}
+/* =============== */
+
+	.indent_big {
+	margin-left: 6em;
+	font-weight: bold;
+}
+
+	.indent_small_no_bold {
+	margin-left: 4em;
+}
+
+.blue_no_bold {
+	color: blue;
+}
+
+.green_no_bold {
+	color: green;
+}
+.indent_big_no_bold {
+	margin-left: 8em;
+}
+
+.indent_small {
+	margin-left: 4em;
+	font-weight: bold;
+}
+
+.indent_small_blue_no_bold {
+	margin-left: 4em;
+	color: blue;
+}
+
+.indent_bigger {
+	margin-left: 8em;
+	font-weight: bold;
+}
+
+.indent_biggest {
+	margin-left: 10em;
+	font-weight: bold;
+}
+
+
+.TextIndent2 {
+	margin-left: 4em;
+	font-weight: bold;
+}
+
+.TextIndent3 {
+	margin-left: 6em;
+	font-weight: bold;
+}
+.TextAlignment {
+	text-align: center;
+}
+
+
+.TextAlignmentBold {
+	text-align: center;
+	font-weight: bold;
+}
+
+.course_links {
+	text-align: right;
+}
+
+	#grid-container {
+		display: grid;
+		grid-template-columns: auto auto;
+		grid-gap: 10px;
+	}
+	div.cell {
+		background: #def9f4;
+		border: 1px solid #AAA;
+		padding: 10px;
+	}
+
+	.spancol {
+		grid-column-start: 1;
+		grid-column-end: 3;
+	}
+
+	.headColor {
+		color: #26daba;
+	}
+
+	table {
+		width: 80%;
+		border-collapse: collapse;
+		overflow: hidden;
+	}
+
+	thead {
+		background-color: #f3d9f9;
+	}
+	tbody {
+		background-color: #f8eafc;
+		border-top: 1px solid #59076d;
+		padding: 3px 5px 3px 40px;
+		text-align: left;
+	}
+	tr {
+		border-top: 1px solid #59076d;
+	}
+.hide_on_mobile {
+		display: none
+}
+/* (B) SMALL SCREEN */
+.leaderboard-style, .between-courses-style {
+	min-height: 336px !important;
+}
+@media (min-width: 1001px) {
+	.leaderboard-style {
+		min-height: 90px !important;
+	}
+}
+@media (min-width: 1200px) {
+	.between-courses-style {
+		min-height: 90px !important;
+	}
+}
+@media screen AND (max-width:768px) {
+  /* (B1) SHOW TOGGLE BUTTONS */
+  .toggleButton { display: block; }
+
+  /* (B2) TRANSFORM TO FULL SCREEN */
+  #container { display: block; }
+  #MainContents { width: 100%; }
+  #sidebar {
+    position: fixed;
+    top: 0; left: 0;
+    z-index: 999;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  /* (B3) SHOW SIDEBAR */
+  #container.open #sidebar {
+    visibility: visible;
+    opacity: 1;
+  }
+  .TopPageHeading{
+	font-size: 20px;
+  }
+
+  .course_links {
+		text-align: right;
+		font-size: 16px;
+	}
+
+	.webColor {
+		color:#2fbb43;
+		text-align: center;
+		font-size: 20px;
+	}
+
+	img {
+		max-width: 80%;
+	}
+
+	body {
+		font-size: 16px;
+	}
+
+	ul li {
+		padding-top: 1em;
+		font-size: 14px;
+		font-family: arial;
+	}
+}
+
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+
+#container {
+	display: flex;
+	width: 95%;
+}
+
+.course_links {
+		text-align: center;
+		font-size: 16px;
+}
+
+.indent_small {
+	margin-left: .5em;
+	font-weight: bold;
+}
+
+.indent_big {
+	margin-left: 1em;
+}
+
+
+.indent_bigger {
+	margin-left: 1.5em;
+}
+
+.indent_biggest {
+	margin-left: 1.8em;
+}
+
+
+.indent_small_blue_no_bold {
+	margin-left: .5em;
+	color: blue;
+}
+
+
+.indent_small_no_bold {
+	margin-left: .5em;
+}
+
+
+.indent_big_no_bold {
+	margin-left: 1em;
+}
+
+.TextIndent2 {
+	margin-left: .5em;
+	font-weight: bold;
+}
+
+.TextIndent3 {
+	margin-left: 1em;
+	font-weight: bold;
+}
+
+hr {
+		border: 0;
+		border-bottom: solid 5px rgba(224, 14, 14, 0.75);
+		margin: 1em 0;
+		width: 80%px;
+
+}
+
+	img {
+		max-width: 80%;
+	}
+	.webColor {
+		color:#26daba;
+		text-align: center;
+		font-size: 18px;
+	}
+
+	ul li {
+		padding-top: 1em;
+		font-size: 14px;
+		font-family: arial;
+	}
+}
